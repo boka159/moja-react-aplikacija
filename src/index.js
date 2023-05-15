@@ -6,6 +6,8 @@ import AppContext from './components/AppContext';
 import AppHOC from './components/AppHOC';
 import AppRouter from './components/AppRouter';
 import AppAPI from './components/AppAPI';
+import AppGraphQL from './components/AppGraphQL';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<AppAPI />);
+root.render(<AppGraphQL />);
